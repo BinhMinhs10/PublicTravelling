@@ -1,0 +1,101 @@
+        img.cycle{
+            border-radius:50%;
+            -moz-border-radius:50%; /*Firefox*/
+            -webkit-border-radius:50%; /*Chrome and Safary*/
+            width: 30px;
+            height: 30px;
+            background-color: white;
+        }
+        .img-thumbnail {
+            background-position: center center;
+            background-size: cover;
+            border: 2px solid white;
+            border-radius: 15px;
+        }
+
+        div.mydiv{
+            background-color: white;
+            padding: 30px;
+        }  
+        .error{
+            color: red;
+        }  
+        .martop30{
+            margin-top: 30px
+        } 
+
+        /* Navbar */   
+        .navbar .dropdown-menu-right { 
+            right: 0; 
+            left: auto; 
+            width: 100px;
+            padding-left: 5px;
+        }
+        .fnt24{
+            font-size: 24px;
+        }
+        .navblue{
+            background-color: #4267b2;
+        }
+        .bod15{
+            border-radius: 15px;
+        }
+        .marleft15{
+            margin-left: 15px;
+        }
+        .marleft45{
+            margin-left: 45px;
+        }
+        .marbot25{
+            margin-bottom: 25px;
+        }
+        .marright15{
+            margin-right: 15px;
+        }
+        .martop80{
+            margin-top: 80px
+        }
+        .martop15{
+            margin-top: 15px
+        }
+
+
+        /*carousel*/
+        .custm-fix{
+            margin-top: -20px;
+            margin-left: -15px;
+            margin-right: -15px;
+            margin-bottom: 70px;
+        }
+
+        .custm-slice-fix{
+            width: 100%;
+        }
+
+        .carousel,.item,.active{
+            width: :100%;
+            border-radius: 0px;
+        }
+        .carousel-inner{
+            width: :100%;
+            border-radius: 0px;
+        }
+        .custm-p{
+            font-size: 25px;
+            line-height: 1.2;
+        }
+        .custm-h{
+            font-size: 55px;
+            margin-bottom: 8px;
+            margin-left: 150px;
+        }
+        .custm-fix-text{
+            font-family: 'Lobster', cursive;
+            font-weight: bold;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+        }
+
+        .mini-avatar{
+            border: 2px solid white;
+            border-radius: 15px;
+        }

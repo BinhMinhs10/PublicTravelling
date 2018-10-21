@@ -1,0 +1,88 @@
+.car-cap-fix-custm{
+	width: 100% ;
+	margin-left: -49px;
+	background-color:rgba(0, 0, 0, 0.5);
+    padding-left: 30px;
+}
+.img-card{
+	height: 16rem;
+}
+.custm-fix-link{
+	color: black;
+	text-decoration: none;
+}
+.custm-fix-link:hover{
+	color: white;
+	text-decoration: none;
+	text-shadow: 0px 2px 6px #333;
+}
+.custm-fix-link-light{
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 2px 6px #333;
+}
+.custm-fix-link-light:hover{
+    color: black;
+    text-decoration: none;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white
+}
+.custm-fix-card{
+	height: 24rem;
+	background-color:rgba(199, 200, 201, 1.0);
+	margin-bottom: 20px;
+}
+.fix-des{
+	height: 4rem;	
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	line-height:1.3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+/*zoom*/
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); 
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+img.cycle-200{
+    border-radius:50%;
+    -moz-border-radius:50%; /*Firefox*/
+    -webkit-border-radius:50%; /*Chrome and Safary*/
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 2px solid white;
+    margin-top: 25px;
+}
+ul{
+	list-style-type: none;
+}
+.user-div{
+	height: 243px;
+	background-repeat: no-repeat;
+}
+.img-div{
+	z-index:2;
+}
+.info-div{
+    background-color:rgba(0, 0, 0, 0.19);
+    padding: 20px 20px 20px 60px;
+    height: 90px;
+    width: 100%;
+    margin-left: -20px;
+    border-radius: 0px 50px 50px 0px;
+    z-index:1;
+}
+.card-title{
+    padding-left: 15px;
+}
+

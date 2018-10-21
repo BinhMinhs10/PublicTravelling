@@ -1,0 +1,37 @@
+.fix-color{
+	margin-top: -20px;
+	padding-top: 60px;
+	margin-bottom: -20px;
+	padding-bottom: 60px;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+    /*background: #DE6262;  */
+    /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  */
+	/* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to bottom, #FFB88C, #DE6262); */
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.fix-bod{
+	border-radius: 10px; 
+	box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+}
+
+.carousel,.item,.active{
+    width: :100%;
+    border-radius: 15px;
+}
+.carousel-inner{
+    width: :100%;
+    border-radius: 15px;
+}
+.btn-login{
+	background: #4267b2; 
+	color:#fff; 
+	font-weight:600;
+}
+.fix-form-register{
+	margin-top: -30px;
+	margin-left: 30px;
+}
